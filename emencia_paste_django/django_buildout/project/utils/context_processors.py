@@ -16,10 +16,10 @@ def get_site_metas(with_static=False, with_media=False, is_secure=False,
 
     Default metas returned :
 
-    * name: Current *Site* entry name;
-    * domain: Current *Site* entry domain;
-    * web_url: The Current *Site* entry domain prefixed with the http
-      protocol;
+    * SITE.name: Current *Site* entry name;
+    * SITE.domain: Current *Site* entry domain;
+    * SITE.web_url: The Current *Site* entry domain prefixed with the http
+      protocol like ``http://mydomain.com``. If HTTPS is enabled 'https' will be used instead of 'http';
 
     Optionally it can also return ``STATIC_URL`` and ``MEDIA_URL`` if needed
     (like out of Django requests).
