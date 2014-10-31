@@ -1,7 +1,7 @@
 .. _Emencia: http://www.emencia.com/
 .. _Python Paste: http://pythonpaste.org/
 .. _buildout: http://www.buildout.org/
-.. _Django: https://www.djangoproject.com/
+.. _DjangoCMS: https://www.django-cms.org/
 .. _Epaster: https://github.com/emencia/Epaster
 
 This is the `Epaster`_ template to build `DjangoCMS`_ 2.x projects with `Python Paste`_ and `buildout`_.
