@@ -30,13 +30,12 @@ class Caller(object):
 
 class Django(Template):
 
-    summary = "Django project."
+    summary = "DjangoCMS 2.x project"
     _template_dir = 'django_buildout'
     vars = [
         var('admin_tools', 'Enable admin_tools (yes/no)', default='yes'),
         var('accounts', 'Enable accounts registration (yes/no)', default='yes'),
         var('contact_form', 'Enable contact_form (yes/no)', default='yes'),
-        #var('debug_toolbar', 'Enable debug_toolbar (yes/no)', default='yes'),
         var('porticus', 'Enable porticus (yes/no)', default='yes'),
         var('site_metas', 'Enable site_metas (yes/no)', default='yes'),
         var('slideshows', 'Enable Slideshows (yes/no)', default='yes'),
@@ -50,7 +49,7 @@ class Django(Template):
         kw['secret_key'] = ''.join([ choice(chars) for i in range(50) ])
 
         # template version
-        kw['epaster_template_name'] = 'emencia-paste-django'
+        kw['epaster_template_name'] = 'emencia-paste-djangocms-2'
         kw['epaster_template_version'] = template_version
 
 

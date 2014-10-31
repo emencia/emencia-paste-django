@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         'paste.paster_create_template': [
-            'django = emencia_paste_djangocms_2.templates:Django',
+            'djangocms-2 = emencia_paste_djangocms_2.templates:Django',
         ]
     },
     include_package_data=True,
