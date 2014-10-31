@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='emencia-paste-djangocms-2',
+    name='emencia_paste_djangocms_2',
     version=__import__('emencia_paste_djangocms_2').__version__,
     description=__import__('emencia_paste_djangocms_2').__doc__,
     long_description=open('README.rst').read(),
     author='David Thenon',
     author_email='dthenon@emencia.com',
-    url='https://github.com/emencia/emencia-paste-djangocms-2',
+    url='https://github.com/emencia/emencia_paste_djangocms_2',
     license='MIT',
     packages=find_packages(),
     classifiers=[
