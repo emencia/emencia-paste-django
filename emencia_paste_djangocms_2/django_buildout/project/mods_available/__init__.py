@@ -147,6 +147,60 @@ You will then be able to access it at the following url (where ``127.0.0.1`` wil
 
 The first action required is the creation of a CMS page for the home page and you must fill in the site name and its domain under ``Administration > Sites > Sites > Add site``.
 
+
 Available mods
 ==============
+
+.. document-mods::
+
+Changelogs
+==========
+
+Version 1.9.5 - 2014/11/07
+--------------------------
+
+* Update to ``zc.buildout==2.2.5``;
+* Update to ``buildout.recipe.uwsgi==0.0.24``;
+* Update to ``collective.recipe.cmd==0.9``;
+* Update to ``collective.recipe.template==1.11``;
+* Update to ``djangorecipe==1.10``;
+* Update to ``porticus==0.8.1``;
+* Add package ``cmsplugin-porticus==0.1.2`` in buildout config;
+* Remove dependancy for ``zc.buildout`` and ``zc.recipe.egg``;
+
+Version 1.9.4 - 2014/11/02
+--------------------------
+
+Update mods doc
+
+Version 1.9.3 - 2014/11/01
+--------------------------
+
+Fix some app versions in version.cfg
+
+Version 1.9.2 - 2014/09/31
+--------------------------
+
+Following repository renaming (*emencia-paste-djangocms-2* to *emencia_paste_djangocms_2*) for a workaround with 'gp.vcsdevelop'
+
+Version 1.9.1 - 2014/09/31
+--------------------------
+
+Fix paste template and setup
+
+Version 1.9 - 2014/09/31
+------------------------
+
+Renaming repository to *emencia-paste-djangocms-2* to follow Epaster new structure.
+
+Version 1.8.2 - 2014/09/27
+--------------------------
+
+Add mods documentations taken from Epaster documentation.
+
+Version 1.8 - 2014/09/26
+------------------------
+
+First release as *emencia_paste_django* started from ``Epaster==1.8``
+
 """

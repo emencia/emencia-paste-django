@@ -22,6 +22,7 @@ eggs                 = Pillow
                        yuicompressor
                        argparse
                        porticus
+                       cmsplugin-porticus
                        djangocodemirror
                        djangocms_text_ckeditor
                        cmsplugin-zinnia
