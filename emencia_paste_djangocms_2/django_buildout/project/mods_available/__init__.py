@@ -156,6 +156,11 @@ Available mods
 Changelogs
 ==========
 
+Version 1.9.6 - 2014/11/17
+--------------------------
+
+* Mount 500 and 404 page view in urls.py when debug mode is activated;
+
 Version 1.9.5 - 2014/11/07
 --------------------------
 
