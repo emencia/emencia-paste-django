@@ -8,7 +8,7 @@ AVALAIBLE_BUNDLES = {
     'modernizr_js': Bundle(
         "js/foundation5/vendor/modernizr.js",
         filters='yui_js',
-        output='js/modernizr.min.js'
+        output='js/modernizr.%(version)s.js'
     ),
     
     
@@ -16,7 +16,7 @@ AVALAIBLE_BUNDLES = {
     'main_css': Bundle(
         'css/main.css',
         filters='yui_css',
-        output='css/main.min.css'
+        output='css/main.%(version)s.css'
     ),
     # Main Javascript bundle For Foundation3
     'main_js': Bundle(
@@ -43,7 +43,7 @@ AVALAIBLE_BUNDLES = {
         "js/jquery/addons.js",
         "js/foundation/app.js",
         filters='yui_js',
-        output='js/main.min.js'
+        output='js/main.%(version)s.js'
     ),
     
     
@@ -52,7 +52,7 @@ AVALAIBLE_BUNDLES = {
         'css/flags.css',
         'css/app.css',
         filters='yui_css',
-        output='css/app.min.css'
+        output='css/app.%(version)s.css'
     ),
     # Main Javascript bundle For Foundation5
     'app_js': Bundle(
@@ -116,7 +116,7 @@ AVALAIBLE_BUNDLES = {
         "js/jquery/addons.js",
         "js/app.js",
         filters='yui_js',
-        output='js/app.min.js'
+        output='js/app.%(version)s.js'
     ),
 }
 ENABLED_BUNDLES = [
